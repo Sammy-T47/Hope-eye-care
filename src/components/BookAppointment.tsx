@@ -191,7 +191,7 @@ export default function BookAppointment({ onClose }: BookAppointmentProps) {
                 <option value="Eye Exam">Comprehensive Eye Exam</option>
                 <option value="Contact Lenses">Contact Lens Fitting</option>
                 <option value="Glasses">Eyeglasses Consultation</option>
-                <option value="LASIK">LASIK Consultation</option>
+                <option value="Surgery">Surgery Consultation</option>
                 <option value="Medical Issue">Medical Eye Issue</option>
                 <option value="Follow-up">Follow-up Visit</option>
                 <option value="Other">Other</option>
