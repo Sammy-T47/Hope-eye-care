@@ -31,11 +31,11 @@ export default function Navigation({ onBookAppointment }: NavigationProps) {
             <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
               Home
             </button>
-            <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
-              About
-            </button>
             <button onClick={() => scrollToSection('services')} className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
               Services
+            </button>
+             <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+              About
             </button>
             <button onClick={() => scrollToSection('resources')} className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
               Resources
