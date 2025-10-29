@@ -13,7 +13,7 @@ export default function Footer() {
               <span className="text-xl font-bold">Hope Eye Care</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Providing exceptional eye care services for over 25 years. Your vision is our mission.
+              Providing exceptional eye care services for over 15 years. Your vision is our mission.
             </p>
           </div>
 
@@ -32,8 +32,8 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li className="text-gray-400">Eye Exams</li>
               <li className="text-gray-400">Contact Lenses</li>
-              <li className="text-gray-400">LASIK Surgery</li>
-              <li className="text-gray-400">Pediatric Care</li>
+              <li className="text-gray-400">Surgery</li>
+              <li className="text-gray-400">Pediatric Eye Care</li>
             </ul>
           </div>
 
@@ -42,15 +42,15 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2 text-gray-400">
                 <MapPin className="w-4 h-4" />
-                123 Vision Street, SF, CA
+                83QP+QPW, Ebonyi voice, Old Enugu -Abakaliki Rd, Local, mile 50, Abakaliki 482112, Ebonyi
               </li>
               <li className="flex items-center gap-2 text-gray-400">
                 <Phone className="w-4 h-4" />
-                (555) 123-4567
+             +234 8074203664
               </li>
               <li className="flex items-center gap-2 text-gray-400">
                 <Mail className="w-4 h-4" />
-                info@hopeeyecare.com
+             hopeeyecare33@gmail.com
               </li>
             </ul>
           </div>
