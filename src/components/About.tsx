@@ -54,7 +54,7 @@ export default function About() {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">About Our Clinic</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-gray-700 mb-4 italic" style={{ fontFamily: "'Lora', serif" }}>
             Since 2010, Hope Eye Care & Medical Services has been dedicated to providing exceptional eye care
             with a personal touch. Our team of experienced professionals uses state-of-the-art
             technology to ensure the best outcomes for every patient.
@@ -99,7 +99,7 @@ export default function About() {
           <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">Meet Our Doctors</h3>
 
           {doctors.length === 0 ? (
-            <p className="text-center text-gray-500">No doctors available at the moment.</p>
+            <p className="text-center text-gray-500">Coming Soon.....</p>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {doctors.map((doctor) => (

@@ -84,7 +84,7 @@ export default function Contact() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Contact Us</h2>
-          <p className="text-lg text-gray-600">
+          <p className="text-xl md:text-2xl text-gray-700 mb-4 italic" style={{ fontFamily: "'Lora', serif" }}>
             Get in touch with our team for any questions or concerns.
           </p>
         </div>

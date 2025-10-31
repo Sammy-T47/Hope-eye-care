@@ -19,11 +19,11 @@ export default function Hero({ onBookAppointment }: HeroProps) {
             Hope Eye Care & Medical Services
           </h1>
 
-          <p className="text-xl md:text-2xl text-gray-700 mb-4">
+          <p className="text-xl md:text-2xl text-gray-700 mb-4 italic" style={{ fontFamily: "'Lora', serif" }}>
             Comprehensive Eye Care You Can Trust
           </p>
 
-          <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl md:text-2xl text-gray-700 mb-4 italic" style={{ fontFamily: "'Lora', serif" }}>
             Over 15 years of experience providing exceptional eye care services.
             From routine exams to advanced treatments, we're here to protect your vision.
           </p>
